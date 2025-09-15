@@ -1,0 +1,11 @@
+#block1{
+    height: 100%;
+    width: 50%;
+    transition: all 0.22s ease ;
+
+}
+#block1:hover{
+    scale: 1.02;
+    transition: all 0.22s ease ;
+
+}

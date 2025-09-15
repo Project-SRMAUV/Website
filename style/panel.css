@@ -1,0 +1,44 @@
+.panel {
+  position: fixed !important;
+  top: 30px;
+  right: 0 !important;
+  left: auto !important;
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(95, 100, 105, 0.267);
+  backdrop-filter: blur(2px);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  z-index: 9999;
+  animation: PanelIn ease-out 1.2s;
+}
+
+.panelItem {
+  color: white;
+  font-size: 14px;
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.panelItem:hover {
+  transform: translateY(-2px);
+  opacity: 0.75;
+}
+
+@keyframes PanelIn {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
