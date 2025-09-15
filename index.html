@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRMAUV</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+
+    <link rel="Stylesheet" href="style/nav.css">
+    <link rel="Stylesheet" href="style/body.css">
+    <link rel="Stylesheet" href="style/loader.css">
+    <link rel="Stylesheet" href="style/cursor.css">
+    <link rel="Stylesheet" href="style/slide2.css">
+    <link rel="Stylesheet" href="style/slide3.css">
+    <link rel="Stylesheet" href="style/skillTabs.css">
+    <link rel="Stylesheet" href="style/leftblock.css">
+    <link rel="stylesheet" href="style/panel.css">
+    <link rel="stylesheet" href="style/photoSlide.css">
+
+    <link rel="shortcut icon" type="x-icon" href="Icons /circle-s.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    
+</head>
+
+<body>
+    <!-- div class="fixed top-8 right-6 " style="z-index: 20;">
+        <a class="relative group " href="./assets/Shivam-cv.pdf" download="Shivam-cv.pdf">
+            <button class="relative group overflow-hidden px-4 py-3 
+            text-white font-semibold bg-gradient-to-bl from-[#1a2be6]/20 via-[#ffffff]/10 to-[#ffffff]/10 
+            backdrop-blur-xl rounded-full flex hover:-translate-y-1 transition-all ease-in-out 100">
+                CV&nbsp;&nbsp;
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon download-icon">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                    <polyline points="7 10 12 15 17 10"/>
+                    <line x1="12" y1="15" x2="12" y2="3"/>
+                </svg> 
+                <div class="bottom-20 group-hover:-bottom-96 -z-[1]  left-0 right-0 absolute 
+                    bg-gradient-to-t ease-in-out group-hover:opacity-100 
+                    opacity-0 from-[#7d92cf] blur-[4em] transition-all 
+                    duration-700 h-[32rem]  rounded-full  will-change-transform"></div>
+            </button>
+        </a>
+    </div -->
+
+    <!-- BG VIDEO-->
+    <video autoplay loop muted class="bg-vid" src="vids/videoplayback.mp4"></video>
+    <div class="top1" id="top1"></div>
+
+    <!-- LEFT PANEL -->
+    <div class="nav" id="nav1">
+        <div class="navItem "><a href="mailto:srmauvteam@gmail.com" target="_blank"><img src="Icons /white email.png"></a></div>
+        <div class="navItem"><a href="https://www.linkedin.com/company/team-srmauv/" target="_blank"><img src="Icons /white linked 2.png"></a></div>
+        <div class="navItem"><a href="https://srmauvsoftware.github.io/" target="_blank"><img src="Icons /White Github.png"></a></div>
+        <div class="navItem"><a href="https://www.instagram.com/srm.auv/?igsh=MTg5d2Zvb2U1ZTFraw%3D%3D" target="_blank"><img src="Icons /insta white.png"></a></div> 
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="panel">
+        <div class="panelItem"><button onclick="scrollToSection(hero)">Home</button></div>
+        <div class="panelItem">Team</div>
+        <div class="panelItem">Project</div>
+        <div class="panelItem">Achievements</div>
+    </div>
+
+    <!-- TITLE -->
+    <div class="hero" >
+        <div class="heroChild2">
+            <span class="not">SRM</span> AUTONOMOUS UNDERWATER VEHICLE
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="about-wrapper">
+        <div class="glass-card">
+            <div class="typewriter" id="typewriter">
+                <span id="typewriter-text"></span><span class="caret">|</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- PHOTO SLIDE -->
+    <div class="photoSlide">
+        <div class="photoSlide-wrapper">
+            <div class="glass-card">
+                
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- <div class="slide-3">
+        <div class="project-frame">
+            <iframe 
+              src="https://keepit-mauve.vercel.app/" 
+              class="project-iframe"
+              title="KeepIt Live Preview"
+              loading="lazy">
+            </iframe>
+        </div>
+        <div class="project-frame">
+            <iframe 
+              src="https://truth-chain-client.vercel.app/" 
+              class="project-iframe"
+              title="KeepIt Live Preview"
+              loading="lazy">
+            </iframe>
+        </div>
+        <div class="project-frame">
+            <iframe 
+              src="https://re-flex.vercel.app/" 
+              class="project-iframe"
+              title="KeepIt Live Preview"
+              loading="lazy">
+            </iframe>
+        </div>
+        <div class="project-frame">
+            <iframe 
+              src="https://teach-hub-kohl.vercel.app/" 
+              class="project-iframe"
+              title="KeepIt Live Preview"
+              loading="lazy">
+            </iframe>
+        </div>
+        
+
+    </div> -->
+
+    <div class="loader-container" id="preloader">
+        <div class="loader">
+            
+        </div>
+    </div>
+
+    <div class="cursor" data-cursor ></div>
+
+    <script src="app.js"></script> 
+</body>
+</html>
