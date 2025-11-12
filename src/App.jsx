@@ -44,12 +44,12 @@ const vehicleSpecs = {
 // --- SPONSOR DATA ---
 const sponsorsData = [
     
-    { name: 'SRM IST', logoUrl: '/public/assets/Srmist_logo.png', category: 'Academic Partner' },
-    { name: 'Blue Robotics', logoUrl: '/public/assets/blue_robotics.png', category: 'Component Supplier' },
-    { name: 'Anekonnect', logoUrl: 'public/assets/logo_anekonnect.png', category: 'Funding' },
-    { name: 'NVIDIA', logoUrl: '/public/assets/nvidia_logo.jpg', category: 'Tech Partner' },
-    { name: 'SRM Innovation and Incubation Centre', logoUrl: '/public/assets/srm_iic.png', category: 'Academic Partner' },
-    { name: 'NIOT', logoUrl: '/public/assets/niot_logo.jpg', category: 'Academic Partner' },
+    { name: 'SRM IST', logoUrl: '/assets/Srmist_logo.png', category: 'Academic Partner' },
+    { name: 'Blue Robotics', logoUrl: '/assets/blue_robotics.png', category: 'Component Supplier' },
+    { name: 'Anekonnect', logoUrl: 'assets/logo_anekonnect.png', category: 'Funding' },
+    { name: 'NVIDIA', logoUrl: '/assets/nvidia_logo.jpg', category: 'Tech Partner' },
+    { name: 'SRM Innovation and Incubation Centre', logoUrl: '/assets/srm_iic.png', category: 'Academic Partner' },
+    { name: 'NIOT', logoUrl: '/assets/niot_logo.jpg', category: 'Academic Partner' },
 ];
 
 
@@ -146,11 +146,11 @@ const ProjectsView = () => (
         <section className="image-gallery-section">
             <h3 className="gallery-title">Visual Showcase</h3>
              <div className="image-placeholder main-image-placeholder">
-                <img src="/public/assets/ZARNA.jpg" alt="ZARNA AUV Main View" className="main-vehicle-image" />
+                <img src="/assets/ZARNA.jpg" alt="ZARNA AUV Main View" className="main-vehicle-image" />
              </div>
              <div className="image-gallery-grid">
-                <img src="/public/assets/ZARNA1.jpg" alt="ZARNA Electronics Bay" className="gallery-image" />
-                <img src="/public/assets/ZARNA2.jpg" alt="ZARNA Thruster Array" className="gallery-image" />
+                <img src="/assets/ZARNA1.jpg" alt="ZARNA Electronics Bay" className="gallery-image" />
+                <img src="/assets/ZARNA2.jpg" alt="ZARNA Thruster Array" className="gallery-image" />
              </div>
         </section>
 
