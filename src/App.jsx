@@ -63,7 +63,7 @@ const Navbar = () => {
       <div className="nav-content">
         {/* --- BRAND LOGO: Now in Navbar --- */}
         <a href="#home" className="nav-brand-logo-container" onClick={() => setIsOpen(false)}>
-            <img src="/assets/auvlogo.png" alt="SRM AUV Logo" className="nav-brand-logo" /> 
+            <img src="/assets/logo.png" alt="SRM AUV Logo" className="nav-brand-logo" /> 
         </a>
         <nav className={`nav-links-desktop ${isOpen ? 'active' : ''}`}>
           {navItems.map((item) => (
