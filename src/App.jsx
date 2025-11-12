@@ -137,7 +137,7 @@ const HomeView = () => (
 
 const ProjectsView = () => (
     <div className="main-content projects-view" id="projects"> 
-        <h2 className="section-title">Vehicle: ZARNA ⛴</h2>
+        <h2 className="section-title">Vehicle: ZARNA</h2>
         <p className="zarna-description">
             ZARNA is the flagship AUV, designed and built entirely by the SRM AUV student team. It represents the pinnacle of our mechanical, electrical, and software engineering capabilities.
         </p>
